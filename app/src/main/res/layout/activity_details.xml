@@ -34,7 +34,7 @@
                 android:layout_weight="1"
                 android:text="@string/farmer_details"
                 android:padding="10dp"
-                android:textColor="@color/white"
+                android:textColor="@color/orange"
                 android:textStyle="bold"
                 android:textSize="18sp"
                 />
@@ -307,7 +307,7 @@
                     android:paddingRight="30dp"
                     android:text="Submit"
                     android:textAllCaps="false"
-                    android:textColor="@color/white"
+                    android:textColor="@color/orange"
                     android:textSize="14sp" />
 
             </LinearLayout>

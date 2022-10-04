@@ -37,12 +37,12 @@
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
-                    android:text="Farmer Groups"
                     android:padding="10dp"
-                    android:textColor="@color/white"
-                    android:textStyle="bold"
+                    android:text="Farmer Groups"
+                    android:textColor="@color/orange"
                     android:textSize="18sp"
-                    />
+                    android:textStyle="bold" />
+
                 <ImageView
                     android:id="@+id/back"
                     android:layout_width="24dp"
@@ -85,7 +85,7 @@
             android:text="Add Farmer Group"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/dullred"
+            android:textColor="@color/orange"
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"
             />
@@ -100,7 +100,7 @@
             android:text="Proceed"
             android:textSize="14sp"
             android:textAllCaps="false"
-            android:textColor="@color/dullred"
+            android:textColor="@color/orange"
             android:layout_gravity="center"
             android:layout_marginBottom="24dp"
             />

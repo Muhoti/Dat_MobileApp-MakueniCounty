@@ -17,9 +17,9 @@
         <ImageView
             android:id="@+id/intro"
             android:layout_width="match_parent"
-            android:layout_height="200dp"
+            android:layout_height="180dp"
             android:layout_marginBottom="8dp"
-            android:src="@drawable/kiambu_logo"
+            android:src="@drawable/makueni_logo"
             app:layout_constraintBottom_toTopOf="@id/cont_credits"
             tools:layout_editor_absoluteX="0dp" />
 
@@ -29,11 +29,11 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@id/app_name"
-            android:text="Kiambu County"
+            android:text="Makueni County"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:gravity="center"
-            android:layout_marginTop="200dp"/>
+            android:layout_marginTop="180dp"/>
 
         <TextView
             android:id="@+id/app_name"
@@ -45,7 +45,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginTop="10dp"
             android:textSize="20sp"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
             android:gravity="center"  />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

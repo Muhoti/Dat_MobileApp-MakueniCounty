@@ -19,7 +19,7 @@
         android:background="@drawable/kiambu_bg"
         android:id="@+id/nav_view"
         app:menu="@menu/nav_menu"
-        app:itemTextColor="@color/white"
+        app:itemTextColor="@color/orange"
         app:headerLayout="@layout/nav_header"
         android:fitsSystemWindows="true"
         android:layout_gravity="start"/>

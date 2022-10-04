@@ -33,7 +33,7 @@
             android:textSize="24dp"
             android:paddingBottom="4dp"
             android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
             android:textStyle="normal" />
             <TextView
                 android:id="@+id/avg"
@@ -60,7 +60,7 @@
         android:gravity="right"
         android:layout_gravity="center_vertical"
         android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        android:textColor="@color/dullred"
+        android:textColor="@color/white"
         android:textStyle="normal" />
     <TextView
         android:id="@+id/updated"

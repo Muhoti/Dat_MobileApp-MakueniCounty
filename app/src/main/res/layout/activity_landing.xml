@@ -17,9 +17,9 @@
         <ImageView
             android:id="@+id/intro"
             android:layout_width="match_parent"
-            android:layout_height="230dp"
+            android:layout_height="200dp"
             android:layout_marginBottom="8dp"
-            android:src="@drawable/kiambu_logo"
+            android:src="@drawable/makueni_logo"
             app:layout_constraintBottom_toTopOf="@id/cont_credits"
             tools:layout_editor_absoluteX="0dp" />
         <TextView
@@ -28,7 +28,7 @@
             android:layout_height="wrap_content"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toTopOf="@id/app_name"
-            android:text="Kiambu County"
+            android:text="Makueni County"
             android:textColor="@color/white"
             android:textSize="30sp"
             android:gravity="center"
@@ -43,7 +43,7 @@
             android:layout_marginBottom="20dp"
             android:layout_marginTop="10dp"
             android:textSize="20sp"
-            android:textColor="@color/white"
+            android:textColor="@color/orange"
             android:gravity="center"
             />
 
@@ -57,7 +57,7 @@
         android:background="@drawable/dark_blue_button"
         android:text="Proceed to Data Collection"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/orange"
         app:layout_constraintBottom_toTopOf="@id/intro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.496"
@@ -83,15 +83,16 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Powered by \n Oakar Services Ltd."
             android:background="@color/translucent_black"
-            android:textColor="@color/dullred"
             android:gravity="center"
             android:padding="10dp"
+            android:text="Powered by \n Oakar Services Ltd."
+            android:textColor="@color/red"
             android:textSize="12sp"
-            app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintBottom_toBottomOf="parent"
-            />
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0"
+            tools:layout_editor_absoluteX="0dp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

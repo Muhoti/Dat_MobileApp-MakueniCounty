@@ -84,7 +84,7 @@
         android:paddingRight="30dp"
         android:text="Submit"
         android:textAllCaps="false"
-        android:textColor="@color/white"
+        android:textColor="@color/orange"
         android:textSize="14sp" />
     </LinearLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
